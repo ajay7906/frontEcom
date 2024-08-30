@@ -16,6 +16,15 @@ import { useEffect, useState } from 'react';
 import 'react-toastify/dist/ReactToastify.css';
 
 import ResetPass from './Pages/ResetPass';
+import 'react-toastify/dist/ReactToastify.css';
+
+
+import { ToastContainer } from 'react-toastify';
+ 
+
+
+
+<ToastContainer/>
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
