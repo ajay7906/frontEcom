@@ -53,7 +53,7 @@ e.target.classList.toggle('open');
       {isLoggedIn ? (
         <button onClick={handleLogout}>Logout</button>
       ) : (
-        <Link to='/LoginSignup'><button>Login</button></Link>
+        <Link to='/LoginSignup'><button>SignUp</button></Link>
       )}
 
 
